@@ -1,0 +1,72 @@
+*{
+    background-color: white;
+    color: #404040;
+    font-size: 11pt;
+    font-family: Georgia, Garamond, serif;
+    text-align: center;
+}
+img {
+    width: 750px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+h1, h2 {
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: underline;
+    color: #A4A400;
+}
+h2 {
+    font-size: 18px;
+}
+
+#testimonial {
+    background-color: #FFFFA8;
+}
+
+.tet-testimonial {
+    font-style: italic;
+    font-size: 14px;
+    text-align: left;
+    margin: 20px;
+    padding: 20px;
+}
+
+#events {
+    background-color: #FFFFA8;
+    padding: 20px;
+    margin: 20px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
+#events img{
+    width: 300px;
+    max-width: 100%;
+    height: auto;
+
+}
+
+#event {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    padding: 20px;
+}
+
+#footer p, #footer a{
+    background-color: #303446;
+    color: #c6d0f5;
+}
+#footer a{
+    color: #b4befe;
+}
+
+#tips li::marker {
+  content: "🇻🇳";
+  font-size: 1.2em;
+}
